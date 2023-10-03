@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald:wght@400;600&display=swap');
+
+
+body {
+    font-family: 'Oswald';
+    font-family: 'Open Sans';
+
+}
+
+.paragraph{
+    align-items: center;
+    justify-content: center;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header {
+    font-family: Oswald;
+    width: 100vw;
+    height: 100px;
+    background-color: #004175;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: white;
+    border: #89DEEF;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+nav{
+    font-weight: 100;
+}
+
+a {
+color: white;
+text-decoration: none;
+font-size: 20px;
+padding: 5px;
+}
+
+.hero {
+width: 100vw;}
+
+.paragraph {
+padding-left: 100px;
+padding-right:100px;
+padding-top:50px;
+padding-bottom: 50px;
+}
+
+.paragraph p{
+    font-size:20px;
+    line-height: 22px;
+    margin-bottom: 10px;
+}
+
+/*FOOTER SECTION -- FOOTER SECTION -- FOOTER SECTION*/
+footer {
+    display: flex;
+height: 20rem;
+font-family: Oswald;
+justify-content: center;
+}
+
+footer a{
+    font-size: 4rem;
+}
+
+.donate{
+    background: linear-gradient(rgba(85, 85, 240, .5), rgba(85, 85, 240, .5)),
+    url(/images/donate.jpg);}
+
+.volunteer{
+        background: linear-gradient(rgba(85, 85, 240, .5), rgba(85, 85, 240, .5)),
+        url(/images/volunteer.jpg);}
+
+.location{
+        background: linear-gradient(rgba(85, 85, 240, .5), rgba(85, 85, 240, .5)),
+            url(/images/location.png);}
+
+            .gojo{
+                display: flex;
+                flex: 1 1 auto;
+align-items: center;         
+justify-content: center; 
+background-size: cover; 
+background-position: center;
+font-size: 13rem;}
+
+.adopt-text a{
+    color: blue;
+    font-size: 18px;
+    text-decoration: underline;
+}
+
+/* CONTACT PAGE */
+.contact{
+    padding-left: 60px;
+    padding-top: 60px;
+
+}
+
+h3{
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+.hours{
+    padding-top: 25px;
+    padding-left: 60px;
+    padding-bottom: 70px;
+}
+
+.hours ul{
+    display: grid;
+    padding-left: 50px;
+    line-height: 25px;
+}
+.info  {
+    font-style: italic;
+    font-size: 20px;
+}
+
+/* DOG LISTING PAGE -- DOG LISTING PAGE -- DOG LISTING PAGE -- DOG LISTING PAGE --  */
+.adoptform{
+    text-decoration: underline;
+}
+
+.adopt-text{
+    padding-left: 50px;
+    padding-top: 50px;
+    padding-bottom: 25px;
+}
+
+.alldogs{
+padding-left: 50px;
+padding-bottom: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.doggy{
+    margin: 5px;
+    width: 350px;
+    height: 500px;
+    border-style: solid;
+    border-width: .5px;
+    border-color: rgb(196, 195, 195);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.doggy img{
+    width: 100%
+}
+
+.alldogs li{
+    display: inline-block;
+    background-color: #89DEEF;
+    margin: 5px;
+    line-height: 10px;
+    border-style: solid;
+    border-color: #89DEEF;
+    border-radius:30px;
+    border-width: 10px;
+
+}
